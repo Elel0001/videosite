@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Ephesis", cursive, "Kurale", serif;
+  color: #10260f;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #aebbad;
+}
+
+body {
+  background-color: #044002;
+}
