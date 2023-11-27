@@ -1,13 +1,33 @@
+body {
+  margin: 8px;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 h1 {
   font-family: "Ephesis", cursive, "Kurale", serif;
   color: #044002;
-  font-size: 5rem;
+  font-size: 5cqw;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
+  font-size: 1.8cqw;
   color: #aebbad;
+}
+
+.forsidetekst {
+  margin: 10px 0 0 33%;
+}
+
+.h2_forside {
+  padding: 0 0 0 38%;
+  margin: 0;
 }
 
 body {
@@ -28,4 +48,12 @@ body {
   width: 45%;
   height: auto;
   aspect-ratio: 16/9;
+}
+
+.grid_galleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 3 / span 2;
+  gap: 10px;
+  padding-top: 20px;
 }
