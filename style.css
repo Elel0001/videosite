@@ -13,3 +13,8 @@ h2 {
 body {
   background-color: #044002;
 }
+
+.video {
+  width: 33%;
+  height: auto;
+}
