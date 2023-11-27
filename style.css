@@ -21,12 +21,17 @@ h2 {
   color: #aebbad;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .forsidetekst {
-  margin: 10px 0 0 33%;
+  margin: 10px 0 0 36%;
 }
 
 .h2_forside {
-  padding: 0 0 0 38%;
+  padding: 0 0 0 41%;
   margin: 0;
 }
 
@@ -37,23 +42,40 @@ body {
 /* background-color: #044002; */
 
 .video {
-  width: 45%;
+  width: 48%;
   height: auto;
   aspect-ratio: 16/9;
-  display: block;
   padding-bottom: 20px;
 }
 
 .iframe {
-  width: 45%;
+  width: 48%;
   height: auto;
   aspect-ratio: 16/9;
+  padding: 20px 0px;
 }
 
 .grid_galleri {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column: 3 / span 2;
-  gap: 10px;
-  padding-top: 20px;
+  gap: 8px;
+  padding: 30px 0 0 0px;
+}
+
+.videoer {
+  padding-left: 3%;
+}
+
+.video_tekst {
+  padding-left: 42%;
+}
+
+footer {
+  margin: 5px 0;
+  font-family: "Ephesis", cursive, "Kurale", serif;
+  color: #044002;
+  font-size: 2.5cqw;
+  padding-left: 44%;
+  background-color: rgb(205, 203, 166);
 }
