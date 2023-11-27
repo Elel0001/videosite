@@ -2,15 +2,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
-  background-color: #8bbffb;
-  box-shadow: 0 0 10px #378ef1a2;
-}
-
-.logo img {
-  width: 45px;
-  height: 45px;
-  padding-top: 4px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 nav {
@@ -36,14 +31,14 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: #001972;
+  color: #333;
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
 }
 
 .menu a:hover {
-  color: rgb(177, 4, 4);
+  color: #000000;
 }
 
 .burger {
@@ -55,19 +50,29 @@ nav {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #000000;
+  background-color: #333;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
 .burger {
   display: none;
 }
+
+a,
+.menu a {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #486c46;
+}
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
   }
   .burger {
     display: block;
+    padding: 5px;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
@@ -86,10 +91,11 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #ffffff84;
+    background-color: #ffffffb5;
     position: absolute;
     top: 60px;
-    left: 0;
+    left: 8px;
+    right: 5%;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -102,12 +108,12 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
-}
 
-/* styling af skrift */
-
-a {
-  font-family: "Satisfy", cursive, sans-serif;
-  font-weight: 900;
-  font-size: 1.2rem;
+  a,
+  .menu a {
+    font-family: "Playfair Display", serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #486c46;
+  }
 }

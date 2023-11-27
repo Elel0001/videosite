@@ -1,6 +1,6 @@
 h1 {
   font-family: "Ephesis", cursive, "Kurale", serif;
-  color: #10260f;
+  color: #044002;
   font-size: 5rem;
 }
 
@@ -11,8 +11,10 @@ h2 {
 }
 
 body {
-  background-color: #044002;
+  background-color: #f9f2e1;
 }
+
+/* background-color: #044002; */
 
 .video {
   width: 45%;
