@@ -68,7 +68,8 @@ body {
 }
 
 .video_tekst {
-  padding-left: 42%;
+  padding: 2% 0% 0% 42%;
+  margin: 0%;
 }
 
 footer {
@@ -78,4 +79,5 @@ footer {
   font-size: 2.5cqw;
   padding-left: 44%;
   background-color: rgb(205, 203, 166);
+  border-radius: 5px;
 }
